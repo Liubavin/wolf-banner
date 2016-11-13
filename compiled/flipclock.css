@@ -6,13 +6,12 @@
   padding: 0;
 }
 .mine {
-  background: url("../image/BF.jpg") no-repeat;
+  background: url(../image/BF.jpg) no-repeat center;
   height: 530px;
-  background-size: 100% 100%;
+  background-size: auto 102%;
 }
 .clock {
-  margin: 0;
-  padding: 0 0 0 40%;
+
   top: 73%;
 
 }
@@ -24,7 +23,6 @@
 
   .clock {
     position: static;
- padding: 0 0 0 28%;
   }
 
   .flip-clock-wrapper {
@@ -34,12 +32,12 @@
 }
 @media only screen and (max-device-width: 1800px) and (min-device-width: 481px) {
   .clock {
-    padding: 0 0 0 35%;
+    padding: 0 0 0 0;
   }
 }
 @media only screen and (max-device-width: 950px) and (min-device-width: 481px) {
   .clock {
-    padding: 0 0 0 30%;
+    padding: 0 0 0 0;
   }
 }
   .flip-clock-wrapper * {
@@ -87,6 +85,11 @@
   .flip-clock-wrapper {
     font: normal 11px "Helvetica Neue", Helvetica, sans-serif;
     -webkit-user-select: none;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 412px;
+    left: initial;
   }
 
   .flip-clock-meridium {
