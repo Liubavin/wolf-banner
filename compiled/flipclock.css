@@ -30,16 +30,7 @@
     position: inherit;
   }
 }
-@media only screen and (max-device-width: 1800px) and (min-device-width: 481px) {
-  .clock {
-    padding: 0 0 0 0;
-  }
-}
-@media only screen and (max-device-width: 950px) and (min-device-width: 481px) {
-  .clock {
-    padding: 0 0 0 0;
-  }
-}
+
   .flip-clock-wrapper * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
